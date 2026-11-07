@@ -1,4 +1,4 @@
-# caiwu-parser · A 股财报三大报表解析器
+# caiwu-parser · A 股财报三大报表高鲁棒性解析器
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
@@ -147,6 +147,17 @@ python -m caiwu_parser 同仁堂_2025年报.pdf --unit wan --csv tongrentang.csv
 
 ---
 
+## 开发成员（Contributors）
+
+本项目由人类开发者与多模型 AI 结对协作完成：
+
+- **[Star-Fall (@QwQStar-Fall)](https://github.com/QwQStar-Fall)** — 项目发起、架构设计、样本回归与产品验证
+- **Claude Opus 5.5** — 核心解析引擎、疑难版式兜底与架构演进协作
+- **Gemini 4 Argon** — 数字体系演进、工程化拆包、独立回归与开源整理
+- **DeepSeek V4.1 Flash 1017** — 财报语料验证与自动化处理协作
+
+---
+
 ## 致谢与交流
 
 - 项目主页与技术演进笔记：[https://star-fall.159911.xyz/lab/](https://star-fall.159911.xyz/lab/)
@@ -154,4 +165,4 @@ python -m caiwu_parser 同仁堂_2025年报.pdf --unit wan --csv tongrentang.csv
 
 ## License
 
-[MIT License](./LICENSE) © 2026 Star-Fall
+[MIT License](./LICENSE) © 2026 Star-Fall & AI Contributors (Claude Opus 5.5, Gemini 4 Argon, DeepSeek V4.1 Flash 1017)

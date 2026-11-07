@@ -9,7 +9,7 @@ setup(
     description="轻量、高鲁棒性的 A 股上市公司财报三大报表解析器（支持原生 PDF / Excel / Word）",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    author="Star-Fall",
+    author="Star-Fall, Claude Opus 5.5, Gemini 4 Argon, DeepSeek V4.1 Flash 1017",
     url="https://github.com/QwQStar-Fall/caiwu-parser",
     license="MIT",
     packages=find_packages(include=["caiwu_parser*"]),

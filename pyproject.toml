@@ -10,7 +10,10 @@ readme = "README.md"
 license = { text = "MIT" }
 requires-python = ">=3.8"
 authors = [
-    { name = "Star-Fall" }
+    { name = "Star-Fall" },
+    { name = "Claude Opus 5.5" },
+    { name = "Gemini 4 Argon" },
+    { name = "DeepSeek V4.1 Flash 1017" },
 ]
 keywords = [
     "finance",
