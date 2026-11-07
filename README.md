@@ -1,4 +1,4 @@
-# caiwu-parser · A 股财报三大报表高鲁棒性解析器
+# caiwu-parser · A 股财报三大报表解析器
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
