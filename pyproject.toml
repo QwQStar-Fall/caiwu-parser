@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "caiwu-parser"
+version = "0.1.0"
+description = "轻量、高鲁棒性的 A 股上市公司财报三大报表解析器（支持原生 PDF / Excel / Word，内置会计恒等式校验）"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.8"
+authors = [
+    { name = "Star-Fall" }
+]
+keywords = [
+    "finance",
+    "accounting",
+    "annual-report",
+    "a-share",
+    "pdf-parser",
+    "financial-statements",
+    "财报解析",
+    "A股年报"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Financial and Insurance Industry",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Office/Business :: Financial :: Accounting",
+]
+dependencies = [
+    "pandas>=1.3.0",
+    "pdfplumber>=0.7.0",
+    "pypdfium2>=4.0.0",
+    "openpyxl>=3.0.0",
+    "python-docx>=0.8.11",
+]
+
+[project.urls]
+Homepage = "https://star-fall.159911.xyz/lab/"
+Repository = "https://github.com/QwQStar-Fall/caiwu-parser"
+Demo = "https://lab.159911.xyz"
+
+[project.scripts]
+caiwu-parser = "caiwu_parser.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["caiwu_parser*"]
